@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products | Capricorn Coatings & Colours</title>
+  <meta name="description" content="Mastics, adhesives, sealants, coatings, heat transfer and bituminous waterproofing products for industrial thermal insulation systems." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+
+    <div class="nav-wrapper">
+
+      <!-- Logo + Tagline -->
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="Capricorn Coatings & Colours Logo">
+        <div class="brand-text">
+          <span class="company-name">Capricorn Coatings & Colours</span>
+          <span class="tagline">Thermal Insulation Accessory Materials</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav">
+        <ul>
+          <li><a data-nav href="index.html">Home</a></li>
+          <li><a data-nav href="products.html">Products</a></li>
+          <li><a data-nav href="applications.html">Applications</a></li>
+          <li><a data-nav href="approvals.html">Approvals</a></li>
+          <li><a data-nav href="resources.html">Download</a></li>
+          <li><a data-nav href="about.html">About</a></li>
+          <li>
+            <a data-nav href="contact.html" class="btn primary nav-btn">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Button -->
+      <button class="menu-toggle" data-menu-btn aria-label="Toggle menu">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+
+    </div>
+
+     <!-- Mobile Navigation -->
+    <div class="mobile-nav" data-mobile-nav>
+      <a data-nav href="index.html">Home</a>
+      <a data-nav href="products.html">Products</a>
+      <a data-nav href="applications.html">Applications</a>
+      <a data-nav href="approvals.html">Approvals</a>
+      <a data-nav href="resources.html">Download</a>
+      <a data-nav href="about.html">About</a>
+      <a data-nav href="contact.html">Contact</a>
+    </div>
+
+  </div>
+</header> 
+
+<main>
+  <section class="hero" style="padding:42px 0 26px">
+    <div class="container">
+      <div class="pill">Product Portfolio</div>
+      <h1 style="margin-top:10px">Thermal insulation accessory materials</h1>
+      <p style="max-width:92ch; color:var(--muted)">
+        Below is a structured overview based on your provided catalogs. For full technical data sheets, download the PDFs in <a href="resources.html" style="text-decoration:underline">Resources</a>.
+      </p>
+    </div>
+  </section>
+
+<section class="section" style="padding-top:10px">
+        <div class="container">
+      <div class="toolbar">
+        <select id="categorySelect" class="select"></select>
+        <input id="search" class="input" placeholder="Search by code, name, use (e.g., LB-135, vapour barrier, fire resistive)"/>
+      </div>
+
+      <div id="catPdfs" class="toolbar"></div>
+      <div id="productList" class="product-list"></div>
+    </div>
+  </section> 
+
+<div id="pdfModal" class="pdf-modal">
+  <div class="pdf-modal-content">
+    <button class="pdf-close" onclick="closePDFModal()">×</button>
+    <iframe id="pdfFrame" src="" width="100%" height="600px"></iframe>
+  </div>
+</div>
+
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="card" style="display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap">
+        <div>
+          <h3 style="margin:0 0 6px">Need a datasheet?</h3>
+          <p style="margin:0; color:var(--muted)">Download the catalog PDF or share your project spec and we’ll recommend the right system.</p>
+        </div>
+        <a class="btn primary" href="resources.html">Downloads</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-container">
+
+    <div class="footer-grid">
+
+      <!-- Company Info -->
+      <div class="footer-col footer-company">
+
+        <h2 class="footer-logo">Capricorn Coatings & Colours</h2>
+
+        <p class="footer-desc">
+          High-performance mastics, adhesives, sealants and protective coatings
+          engineered for demanding thermal insulation and industrial applications.
+        </p>
+
+        <div class="footer-badge">
+          Thermal Insulation Accessory Specialists
+        </div>
+
+      </div>
+
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+
+        <h3>Quick Links</h3>
+
+        <ul class="footer-links">
+          <li><a href="products.html">Products</a></li>
+          <li><a href="applications.html">Applications</a></li>
+          <li><a href="approvals.html">Approvals & Compliance</a></li>
+          <li><a href="resources.html">Technical Resources</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+      </div>
+
+
+      <!-- Contact Info -->
+      <div class="footer-col">
+
+        <h3>Get in touch</h3>
+
+        <div class="footer-contact">
+
+          <p class="footer-address">
+            <strong>Ankleshwar, Gujarat</strong><br>
+            Plot No. 7313/2, G.I.D.C. Industrial Estate,<br>
+            Ankleshwar - 393002, Dist. Bharuch
+          </p>
+
+          <p>
+            <a href="mailto:capricorn_coatings@yahoo.co.in">
+              capricorn_coatings@yahoo.co.in
+            </a>
+          </p>
+
+          <div class="contact-persons">
+
+  <p class="contact-person">
+    <strong>Parimal Patel:</strong>
+    <a href="tel:+919825073916">+91 98250 73916</a>
+  </p>
+
+  <p class="contact-person">
+    <strong>Dr. Udayan Mukherjee:</strong>
+    <a href="tel:+919825073915">+91 98250 73915</a>
+  </p>
+
+  <p class="contact-person">
+    <strong>Deepanjan Mukherjee:</strong>
+    <a href="tel:+919825120164">+91 98251 20164</a>
+  </p>
+
+</div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+      © 2026 Capricorn Coatings & Colours. All Rights Reserved.
+    </div>
+
+  </div>
+</footer>
+<script src="products-data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
