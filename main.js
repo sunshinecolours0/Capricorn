@@ -349,3 +349,41 @@ item.classList.toggle("active");
 });
 
 });
+
+const form = document.getElementById("enquiryForm");
+
+if(form){
+form.addEventListener("submit", function(e){
+
+e.preventDefault();
+
+const company = form.company.value;
+const temp = form.temp.value;
+const insulation = form.insulation.value;
+const msg = form.msg.value;
+
+const subject = encodeURIComponent("Insulation Accessory Material Enquiry");
+
+const body = encodeURIComponent(
+`Company / Project Name: ${company}
+
+Service Temperature Range: ${temp}
+
+Insulation Type: ${insulation}
+
+Project Details:
+${msg}
+
+----------------------------------
+Please provide quotation and technical recommendation.
+
+Capricorn Coatings & Colours
+`
+);
+
+window.location.href =
+`mailto:capricorn_coatings@yahoo.co.in?subject=${subject}&body=${body}`;
+
+});
+}
+
