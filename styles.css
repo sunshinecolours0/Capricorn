@@ -230,6 +230,16 @@ img{max-width:100%; height:auto; display:block}
   overflow:hidden;
 }
 
+.table-scroll{
+  width:100%;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+}
+
+.table{
+  min-width:300px;
+}
+
 /* HEADERS */
 
 .table th{
