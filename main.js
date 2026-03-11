@@ -138,7 +138,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
       let tableHTML = `
       <h2>${category}</h2>
-      <table class="table">
+      <div class="table-container">
+<table class="table">
         <thead>
           <tr>
             <th>Product</th>
@@ -174,7 +175,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
       tableHTML += `
         </tbody>
-      </table>
+        </table>
+</div>
+
       `;
 
       section.innerHTML = tableHTML;
