@@ -442,6 +442,23 @@ small{color:var(--muted)}
   opacity: 0.8;
 }
 
+@media (max-width:600px){
+
+.logo-grid{
+  grid-template-columns: repeat(2, 1fr);
+  gap:16px;
+}
+
+.logo-card{
+  padding:20px;
+}
+
+.logo-card img{
+  max-height:50px;
+}
+
+}
+
 .toolbar {
   display: flex;
   gap: 16px;
