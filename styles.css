@@ -1544,15 +1544,15 @@ body.menu-open{
   }
 
   .brand img{
-    height:34px;
+    height:30px;
   }
 
   .company-name{
-    font-size:13px;
+    font-size:10px;
   }
 
   .tagline{
-    font-size:9px;
+    font-size:8px;
   }
 
 }
