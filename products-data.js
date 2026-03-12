@@ -37,7 +37,7 @@
     product: "LoidKote-9",
     type: "Anti-abrasion inner coat",
     typicalUse: "Inner surface of cellular glass / PU / PIR to reduce abrasion due to vibration",
-    pdf: "assets/products/Product Catalog new-44.pdf"
+    pdf: "assets/products/Product Catalog new-45.pdf"
   },
 
   // ======================
@@ -166,3 +166,4 @@
   }
 
 ];
+
